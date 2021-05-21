@@ -56,7 +56,7 @@ public class MpdemoApplicationTests {
     }
 
     //测试乐观锁
-    @Test
+   /* @Test
     public void testOptimisticLock() {
         System.out.println("--------------OptimisticLock method test---------------");
         //根据id先查询数据
@@ -67,7 +67,7 @@ public class MpdemoApplicationTests {
         userReqDtoMapper.updateById(userReqDto);
         //userReqDtoMapper.update(userReqDto,null);
         //System.out.println(row);
-    }
+    }*/
 
     //多个id批量查询
     @Test
